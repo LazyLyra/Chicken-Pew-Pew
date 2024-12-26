@@ -5,14 +5,20 @@ using UnityEngine;
 public class PlayerMovementScript : MonoBehaviour
 {
     [SerializeField] float MoveSpeed;
+    public Rigidbody2D RB;
     // Start is called before the first frame update
     void Start()
     {
-        
+        RB = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
+    {
+
+    }
+
+    private void FixedUpdate()
     {
         Move();
     }
@@ -26,6 +32,8 @@ public class PlayerMovementScript : MonoBehaviour
         Vector3 VerticalInput = new Vector3(0, Input.GetAxisRaw("Vertical"), 0);
         Vector3 VerticalMovement = VerticalInput * MoveSpeed * Time.deltaTime;
         transform.position = transform.position + VerticalMovement;
+
+        
     }
 
 }

@@ -23,7 +23,7 @@ public class EnemyScript : MonoBehaviour
 
     }
 
-    
+  
 
     public void TakeDamage(int DamageReceived)
     {
