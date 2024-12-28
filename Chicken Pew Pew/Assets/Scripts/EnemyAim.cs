@@ -27,7 +27,7 @@ public class EnemyAim : MonoBehaviour
             if(coolDownTimer<= 0)
             { 
                 StartCoroutine(visualHandling());
-                coolDownTimer = 1.5f;
+                coolDownTimer = 0.6f;
             }
 
         }
