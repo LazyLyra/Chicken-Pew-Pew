@@ -12,15 +12,6 @@ public class EnemyScript : MonoBehaviour
     [Header("Attack")]
     [SerializeField] int AttackDamage;
     // Start is called before the first frame update
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> main
->>>>>>> Stashed changes
     void Start()
     {
         CurrentHP = MaxHP;
@@ -52,11 +43,4 @@ public class EnemyScript : MonoBehaviour
     {
         GameObject.Destroy(gameObject);
     }
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
- 
-=======
->>>>>>> main
->>>>>>> Stashed changes
 }
