@@ -13,13 +13,19 @@ public class EnemyScript : MonoBehaviour
     [SerializeField] int AttackDamage;
     // Start is called before the first frame update
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 <<<<<<< HEAD
 
 
 
 =======
 >>>>>>> main
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     void Start()
     {
@@ -53,10 +59,16 @@ public class EnemyScript : MonoBehaviour
         GameObject.Destroy(gameObject);
     }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 <<<<<<< HEAD
  
 =======
 >>>>>>> main
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 }
