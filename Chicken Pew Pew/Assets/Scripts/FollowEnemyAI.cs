@@ -7,13 +7,6 @@ public class FollowEnemyAI : MonoBehaviour
     public GameObject Player;
     public float Speed;
     private float Distance;
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> main
->>>>>>> Stashed changes
     [SerializeField] float FollowDistance;
 
     [Header("Following Info")]
@@ -30,40 +23,19 @@ public class FollowEnemyAI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> main
->>>>>>> Stashed changes
         if (LOS)
         {
             Distance = Vector2.Distance(transform.position, Player.transform.position);
             Vector2 direction = Player.transform.position - transform.position;
             direction.Normalize();
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-<<<<<<< Updated upstream
 
-=======
-<<<<<<< HEAD
-=======
-
->>>>>>> main
->>>>>>> Stashed changes
             if (Distance < FollowDistance)
             {
                 transform.position = Vector2.MoveTowards(this.transform.position, Player.transform.position, Speed * Time.deltaTime);
                 transform.rotation = Quaternion.Euler(Vector3.forward * angle);
             }
         }
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-     
-=======
->>>>>>> main
->>>>>>> Stashed changes
     }
 
     private void FixedUpdate()
