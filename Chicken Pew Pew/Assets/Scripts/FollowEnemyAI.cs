@@ -8,17 +8,11 @@ public class FollowEnemyAI : MonoBehaviour
     public float Speed;
     private float Distance;
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
 
 =======
 >>>>>>> main
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
     [SerializeField] float FollowDistance;
 
@@ -37,17 +31,11 @@ public class FollowEnemyAI : MonoBehaviour
     void Update()
     {
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
 
 =======
 >>>>>>> main
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
         if (LOS)
         {
@@ -56,18 +44,12 @@ public class FollowEnemyAI : MonoBehaviour
             direction.Normalize();
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
 =======
 
 >>>>>>> main
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
             if (Distance < FollowDistance)
             {
@@ -76,17 +58,11 @@ public class FollowEnemyAI : MonoBehaviour
             }
         }
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
      
 =======
 >>>>>>> main
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
     }
 

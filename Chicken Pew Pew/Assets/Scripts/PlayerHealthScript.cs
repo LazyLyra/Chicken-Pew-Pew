@@ -1,17 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
 using System.Runtime.Serialization;
 =======
 >>>>>>> main
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 using UnityEngine;
 
@@ -20,10 +14,7 @@ public class HealthScript : MonoBehaviour
     [SerializeField] int MaxHealth;
     [SerializeField] int CurrentHealth;
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
     [SerializeField] EnemyAttackCollision enemyAttackCollision;
     [SerializeField] GameObject player;
@@ -57,9 +48,6 @@ public class HealthScript : MonoBehaviour
     { 
         GameObject.Destroy(gameObject);
 =======
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
     // Start is called before the first frame update
     void Start()
@@ -72,10 +60,6 @@ public class HealthScript : MonoBehaviour
     {
         
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
->>>>>>> main
->>>>>>> Stashed changes
 =======
 >>>>>>> main
 >>>>>>> Stashed changes

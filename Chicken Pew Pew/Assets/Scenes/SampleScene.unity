@@ -123,10 +123,7 @@ NavMeshSettings:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
@@ -183,9 +180,6 @@ MonoBehaviour:
   attackTime: 0.2
 =======
 >>>>>>> main
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 --- !u!1 &517592650
 GameObject:
@@ -207,19 +201,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
   m_IsActive: 1
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
   m_IsActive: 0
 =======
   m_IsActive: 1
 >>>>>>> main
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 --- !u!4 &517592651
 Transform:
@@ -376,17 +364,11 @@ Rigidbody2D:
   m_CollisionDetection: 0
   m_Constraints: 7
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
 >>>>>>> Stashed changes
 =======
 >>>>>>> main
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 --- !u!1 &519420028
 GameObject:
@@ -518,18 +500,12 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 =======
 >>>>>>> main
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 --- !u!61 &668579688
 BoxCollider2D:
@@ -604,11 +580,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxHealth: 15
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
   CurrentHealth: 0
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
   CurrentHealth: 15
   enemyAttackCollision: {fileID: 1158367706}
@@ -618,9 +591,6 @@ MonoBehaviour:
 =======
   CurrentHealth: 0
 >>>>>>> main
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 --- !u!50 &668579691
 Rigidbody2D:
@@ -808,17 +778,11 @@ Rigidbody2D:
   m_CollisionDetection: 0
   m_Constraints: 7
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
 >>>>>>> Stashed changes
 =======
 >>>>>>> main
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 --- !u!1 &898816483
 GameObject:
@@ -905,18 +869,12 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 =======
 >>>>>>> main
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 --- !u!1 &1084960389
 GameObject:
@@ -965,10 +923,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackTime: 0.3
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
 --- !u!1 &1158367699
 GameObject:
@@ -1146,9 +1101,6 @@ MonoBehaviour:
   knockBackDistance: 1.5
 =======
 >>>>>>> main
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 --- !u!1 &1264256460
 GameObject:
@@ -1269,17 +1221,11 @@ Transform:
   m_Children:
   - {fileID: 1264256461}
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
   - {fileID: 477702752}
 =======
 >>>>>>> main
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1389,17 +1335,11 @@ MonoBehaviour:
   Idle: 0
   LOS: 0
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
 <<<<<<< HEAD
 >>>>>>> Stashed changes
 =======
 >>>>>>> main
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
