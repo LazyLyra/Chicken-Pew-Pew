@@ -6,7 +6,6 @@ using UnityEngine.UIElements;
 public class EnemyAim : MonoBehaviour
 {
     [SerializeField] PlayerMovementScript playerMovementScript;
-    [SerializeField] FollowEnemyAI followEnemyAI;
     [SerializeField] GameObject enemy;
     [SerializeField] GameObject attackRegion;
     [SerializeField] float coolDownTimer;
