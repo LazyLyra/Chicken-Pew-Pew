@@ -1,11 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.UIElements;
 using UnityEngine;
 
 public class PlayerMovementScript : MonoBehaviour
 {
     [SerializeField] float MoveSpeed;
     public Rigidbody2D RB;
+
+    [SerializeField] float BCSpawnInterval;
+    [SerializeField] float timer;
+    public GameObject BC;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +20,13 @@ public class PlayerMovementScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        timer += Time.deltaTime;
+        if (timer > BCSpawnInterval)
+        {
+            timer = 0f;
+            //spawn breadcrumb
+            Instantiate(BC, transform.position, Quaternion.identity);
+        }
 
     }
 
@@ -35,5 +47,6 @@ public class PlayerMovementScript : MonoBehaviour
 
         
     }
-
+    
+  
 }

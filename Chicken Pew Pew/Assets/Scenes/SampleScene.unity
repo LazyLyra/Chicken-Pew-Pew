@@ -484,6 +484,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MoveSpeed: 5
   RB: {fileID: 0}
+  BCSpawnInterval: 1
+  timer: 0
+  BC: {fileID: 309163436203333417, guid: c065fa96859426842aab15b7cb386fa9, type: 3}
 --- !u!114 &668579690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1212,11 +1215,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 668579686}
+  BC: {fileID: 309163436203333417, guid: c065fa96859426842aab15b7cb386fa9, type: 3}
   Speed: 2
   FollowDistance: 5
-  Pursuing: 0
-  Idle: 0
-  LOS: 0
+  LOSPlayer: 0
+  LOSBC: 0
 --- !u!1 &1782775863
 GameObject:
   m_ObjectHideFlags: 0
