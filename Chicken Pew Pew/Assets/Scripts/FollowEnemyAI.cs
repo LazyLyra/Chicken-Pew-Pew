@@ -7,6 +7,7 @@ public class FollowEnemyAI : MonoBehaviour
     public GameObject Player;
     public float Speed;
     private float Distance;
+    public bool attacking;
     [SerializeField] float FollowDistance;
 
     [Header("Following Info")]
@@ -34,6 +35,11 @@ public class FollowEnemyAI : MonoBehaviour
             {
                 transform.position = Vector2.MoveTowards(this.transform.position, Player.transform.position, Speed * Time.deltaTime);
                 transform.rotation = Quaternion.Euler(Vector3.forward * angle);
+                attacking = true;
+            }
+            else
+            {
+                attacking = false;
             }
         }
     }

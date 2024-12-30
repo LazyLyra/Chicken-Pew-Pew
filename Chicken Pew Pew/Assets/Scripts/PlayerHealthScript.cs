@@ -8,6 +8,7 @@ public class HealthScript : MonoBehaviour
     [SerializeField] int CurrentHealth;
     // Start is called before the first frame update
     [SerializeField] EnemyAttackCollision enemyAttackCollision;
+    [SerializeField] RangedCollision rangedCollision;
     [SerializeField] GameObject player;
     [SerializeField] GameObject attackRegion;
 
@@ -18,6 +19,14 @@ public class HealthScript : MonoBehaviour
     void Start()
     {
         enemyAttackCollision.OnEnemyHit += EnemyAttackCollision_OnEnemyHit;
+        rangedCollision.OnEnemyProjectileHit += RangedCollision_OnEnemyProjectileHit;
+    }
+
+    private void RangedCollision_OnEnemyProjectileHit(object sender, System.EventArgs e)
+    {
+        Debug.Log("ran");
+        rangedCollision.knockBackHandling();
+        TakeDamage(rangedCollision.damage);
     }
 
     private void EnemyAttackCollision_OnEnemyHit(object sender, System.EventArgs e)
