@@ -41,7 +41,7 @@ public class FollowEnemyAI : MonoBehaviour
             }
         }
 
-        else if (!LOSPlayer && LOSBC)
+        else if (!LOSPlayer)
         {
             Distance = Vector2.Distance(transform.position, BC.transform.position);
             Vector2 direction = BC.transform.position - transform.position;
